@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Parks by Region</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+ </head>
+ <body >
+<div class = 'header'>
+	<div class = 'title'>
+		<h1>Parks by Region </h1>
+	</div>
+
+	<div class = 'navigation'>
+		<ul class = 'nav'>
+			<li class = 'nav_list'><a class = 'nav_link' href='/C:/Users/rcels/Documents/CS%20290/Project/public/content.html'>Home</a></li>
+			<li class = 'nav_list'><a class = 'nav_link' href='/C:/Users/rcels/Documents/CS%20290/Project/public/map.html'>Parks by Region</a></li>
+			<li class = 'nav_list'><a class = 'nav_link' href='/C:/Users/rcels/Documents/CS%20290/Project/public/flyers.html'>Rules and Etiquette</a></li>
+			<li class = 'nav_list'><a class = 'nav_link' href='/C:/Users/rcels/Documents/CS%20290/Project/public/form.html'>Find a Park</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class = 'click_map' >
+	<iframe src="https://createaclickablemap.com/map.php?&id=81691&maplocation=false&online=true" width="1720" height="1000" style="border: none;"></iframe>
+<script>if (window.addEventListener){ window.addEventListener("message", function(event) { if(event.data.length >= 22) { if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22) { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } </script>
+</div>
+
+<div class = 'results'>
+		<table> 
+			<thead> 
+				<th>Park Name</th> 
+				<th>Region</th> 
+				<th>Activites</th>
+			</thead> 
+			<tbody>
+				<!-- 	{{#each park}}  -->
+				<tr> 
+					<td>{{name}}</td> 
+					<td>{{region_name}}</td>
+					<td>{{activity_name}}</td>
+				</tr> 
+				<!-- {{/each}} -->
+			</tbody> 
+		</table> 
+	</div>
+
+ </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Find a National Park</title>
+  <link rel="stylesheet" href="../style.css" type="text/css">
+ </head>
+ <body >
+<div class = 'header'>
+	<div class = 'title'>
+		<h1>Find a National Park </h1>
+	</div>
+
+	<div class = 'navigation'>
+		<ul class = 'nav'>
+			<li class = 'nav_list'><a class = 'nav_link' href='/'>Home</a></li>
+			<li class = 'nav_list'><a class = 'nav_link' href='/map'>Best Hiking Trails</a></li>
+			<li class = 'nav_list'><a class = 'nav_link' href='/rules'>Rules and Etiquette</a></li>
+			<li class = 'nav_list'><a class = 'nav_link' href='/findPark'>Find a National Park</a></li>
+		</ul>
+	</div>
+</div>
+
+
+
+<div>
+	<div class = "form_background">
+	</div>
+	<div class = 'find_park_form'>
+		<form onsubmit='return searchParks();' class = 'find_park' method = 'post'>
+			<legend> Search for a park:</legend>
+			<div class = 'region'>
+				Select a Region/State:<select name="region"> 
+					<option class='region_param' value= null></option>
+					<option class='region_param' value= null disabled> <bold>--- Regions ---</bold></option>
+					{{#each regions}}
+					<option class='region_param' value="{{region_name}}">{{region_name}}</option>
+					{{/each}}
+					<option class='region_param' value= null disabled></option>
+					<option class='region_param' value= null disabled> <bold>--- State ---</bold></option>
+					{{#each states}}
+					<option class='region_param' value="{{state_name}}">{{state_name}}</option>
+					{{/each}}
+				</select><br>
+			</div>
+			<div class = 'attributes'>
+				Select a Feature: <select name="feature"> 
+				<option class='attribute_param' value= null></option>
+					{{#each features}}
+					<option class='attribute_param' value="{{id}}">{{name}}</option>
+					{{/each}}
+				</select><br>
+			</div>
+			<div class = 'activities'>
+				Select an Activity: <select name="activity"> 
+				<option class='activity_param' value= null></option>
+					{{#each activities}}
+					<option class='activity_param' value="{{id}}">{{name}}</option>
+					{{/each}}
+				</select><br>
+			</div>
+			<br>
+			<div class = 'submit_button'>
+				<input type="submit" id = "submit" value="Submit">
+			</div>
+		</form>
+	</div>
+
+	
+	<div class = 'results'>
+		<table> 
+			<thead> 
+				<th>Park Name</th> 
+				<th>State</th> 
+				<!-- <th>Activites</th>-->
+			</thead> 
+			<tbody>
+			{{#if parks}}
+			
+				{{#each parks}}
+				<tr> 
+
+					<td><a class = 'park_links' href={{link}} target="_blank" >{{name}}</a></td> 
+					<td>{{state}}</td>
+					<!-- <td>{{activity_name}}</td> -->
+				</tr> 
+				{{/each}}
+			{{else}}
+				<tr>
+					<td colspan = '2'><br> Sorry, no parks match that search criteria. </td>
+				</tr>
+			{{/if}}
+			</tbody> 
+		</table> 
+	</div>
+</div>
+
+ </body>
+</html>

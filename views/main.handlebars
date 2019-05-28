@@ -1,0 +1,53 @@
+<html>
+<head>
+	<link rel="stylesheet" href="../style.css" type= "text/css" />
+	<title>Main</title>
+</head>
+
+<!-- Contains header title and navigation bar, should not change from page to page, unless changing picture -->
+<div class = 'header'>
+	<div class = 'title'>
+		<h1>Outdoor Trip Planner </h1>
+	</div>
+
+	<div class = 'navigation'>
+		<ul class = 'nav'>
+			<li class = 'nav_list'><a class = 'nav_link' href='/'>Home</a></li>
+			<li class = 'nav_list'><a class = 'nav_link' href='/map'>Best Hiking Trails</a></li>
+			<li class = 'nav_list'><a class = 'nav_link' href='/rules'>Rules and Etiquette</a></li>
+			<li class = 'nav_list'><a class = 'nav_link' href='/findPark'>Find a National Park</a></li>
+		</ul>
+	</div>
+</div>
+<div class = 'main_wrapper'>
+	<div class = 'information'>
+		<h3> For more information, hover over each picture </h3>
+	</div>
+<div class = 'picWrapper'>
+	<!--- Found at https://www.w3schools.com/w3css/w3css_slideshow.asp and https://www.w3schools.com/howto/howto_css_image_overlay.asp-->
+	<div class = 'carouselPics'>
+		<img src="../1.jpg">
+		<div class="overlay">
+			<div class="hovertext"><a href='/map'>Best Hiking Trails</a> lets you view the top rated hiking trails for each state.
+			</div>
+		</div>
+	</div>
+	<div class = 'carouselPics'>
+		<img  src="../2.jpg">
+		<div class="overlay">
+			<div class="hovertext"><a href='/rules'>Rules and Etiquette</a> contains information on how to stay safe and be polite when outdoors.</div>
+		</div>
+	</div>
+	<div class = 'carouselPics'>
+		<img src="../4.jpg">
+		<div class="overlay">
+			<div class="hovertext"><a href='/findPark'>Find a National Park</a> allows you to search for national parks that fit certain criteria. 
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+ </body>
+</html>

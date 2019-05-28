@@ -1,0 +1,60 @@
+Acadia
+Arches
+Badlands
+Big Bend
+Biscayne
+Bryce Canyon
+Canyonlands
+Black Canyon of the Gunnison
+Captiol Reef
+Carlsbad
+Channel Islands
+Congaree
+Crater Lake
+Cuyahoga Valley
+Death valley
+Denali
+Dry Tortugas
+Everglades
+Gates of the Artic
+Glacier Bay
+Glacier
+Grand Canyon
+Grand Teton --------------
+Great Basin
+Great Sand Dunes
+Great Smokey Mountains
+Guadelupe Peak
+Haleakala
+Hawaii Volcanoes
+Hot Springs
+Isle Royale
+Joshua Tree
+Katmai
+Kenai Fjords
+Kings Canyon
+Kobuk Valley
+Lake Clark
+Kobuk Valley
+Lassen Volcanic
+Mammoth Cave
+Mesa Verde
+Monut Rainer
+North Cascades
+Olympic
+Pertrified Forest
+Pinnacles ---------------
+Redwood
+Rocky Mountains
+Saguaro
+Sequoia
+Shenendoah
+Theodore Roosevelt
+Voyageurs
+Wind Cave
+Wrangell-St. Elias
+Yellowstone
+Yosemite
+Zion																	
+
+Can remove 10 by restrcting to lower 48, 2 hawaii 8 alaska

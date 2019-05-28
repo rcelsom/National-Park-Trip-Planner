@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Best Hiking Trails</title>
+  <link rel="stylesheet" href="../style.css"" type="text/css">
+ </head>
+ <body >
+<div class = 'header'>
+	<div class = 'title'>
+		<h1>Best Hiking Trails </h1>
+	</div>
+
+	<div class = 'navigation'>
+		<ul class = 'nav'>
+			<li class = 'nav_list'><a class = 'nav_link' href='/'>Home</a></li>
+			<li class = 'nav_list'><a class = 'nav_link' href='/map'>Best Hiking Trails</a></li>
+			<li class = 'nav_list'><a class = 'nav_link' href='/rules'>Rules and Etiquette</a></li>
+			<li class = 'nav_list'><a class = 'nav_link' href='/findPark'>Find a National Park</a></li>
+		</ul>
+	</div>
+</div>
+<div class = 'instructions'>
+	<h2>Click on a state to see it's top rated trails!</h3>
+</div>
+<div class = 'click_map' >
+<!-- iframe and script code created by https://createaclickablemap.com -->
+
+<iframe src="https://createaclickablemap.com/map.php?&id=81763&maplocation=false&online=true" width="1720" height="1000" style="border: none;"></iframe>
+<script>if (window.addEventListener){ window.addEventListener("message", function(event) { 
+			if(event.data.length >= 22) { 
+				if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") 
+					location = event.data.substr(22); }
+				}, false); 
+		} 
+		else if (window.attachEvent){ window.attachEvent("message", function(event) { 
+			if( event.data.length >= 22) { 
+				if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") 
+					location = event.data.substr(22);
+			} 
+		}, false); } 
+</script>
+</div>
+<!--
+<div class = 'results'>
+		<table> 
+			<thead> 
+				<th>Park Name</th> 
+				<th>State</th>
+				<th>Region</th> 
+			</thead> 
+			<tbody>
+				{{#each parks}}
+				<tr> 
+					<td><a class = 'park_links' href={{link}} >{{name}}</a></td> 
+					<td>{{state}}</td>
+					<td>{{region}}</td>
+				</tr> 
+				{{/each}}
+			</tbody> 
+		</table> 
+	</div>
+-->
+ </body>
+</html>

@@ -1,0 +1,61 @@
+Note that camping is in all parks, no need to search for it
+
+Acadia - rafting, cylcing, climbing, fishing, hiking, horse riding
+Arches - scenic drive, backpacking, cycling, climbing, hiking, horseback
+Badlands- hiking, backpacking, cycling
+Big Bend- rafting, hiking, backpacking, cmaping, scenic drives
+Biscayne- fishing, kayaking
+Bryce Canyon - hiking, backpacking
+Canyonlands- rafting, scenic drive, hiking, backpacking, cycling, kayaking, climbing, horseback
+Black Canyon of the Gunnison- hiking, scenic drives, fishing, kayaking, rafting, climbing, horse
+Captiol Reef - hiking, backpacking, scenic drive, rock climbing, cycling, horse
+Carlsbad - spelunking
+Channel Islands- rafting hiking, camping, backpacking, diving, fishing, surfing
+Congaree- rafting,  hiking, camping, kayaking, fishing
+Crater Lake - hiking, backpacking, cycling
+Cuyahoga Valley - hiking, cycling, fishing, backpacking, kayaking, horse
+Death valley - hiking, backpacking, scenic driving, cycling, horse
+Denali - hiking, backpacking, cycling, fishing, 
+Dry Tortugas - diving, cmaping, fishing
+Everglades- rafting, cycling, kayaking, fishing, hiking
+Gates of the Artic- rafting, hiking, backpacking, hunting
+Glacier Bay- rafting, backpacking, hiking
+Glacier- rafting, hiking, backpacking, cycling, fishing, kayaking, horse riding
+Grand Canyon- rafting, backpacking, hiking, horse
+Grand Teton - rafting, scenic drive, hikinh, backpacking, fishing, kayaking, climbing, horse
+Great Basin - spelunking, scenic drive, cycling, climbing, fishing, hiking, backpacking, horse
+Great Sand Dunes - hiking, backpacking, horse, cycling
+Great Smokey Mountains- rafting, cycling, scenic drive, fishing, hiking, horse, backpacking
+Guadelupe Mountains - hiking, backpacking, horse
+Haleakala - hiking, backpacking
+Hawaii Volcanoes - scenic drive, hiking, backpacking, 
+Hot Springs - hiking, 
+Isle Royale- rafting, backpacking, hiking, fishing, scuba diving
+Joshua Tree - backpacking, hiking, climbing, horse, scenic drives
+Katmai - hiking, backpacking, fishing, hunting
+Kenai Fjords - kayaking, hiking, backpacking, fishing, climbing (mountaineering)
+Kings Canyon - hiking, backpacking, horse, rock climbing, fishing
+Kobuk Valley - backpacking, hiking, kayaking, fishing, 
+Lake Clark - cycling, backpacking, hiking, fishing, hunting, kayaking, 
+Lassen Volcanic - scenic drive, backpacking, kayaking, hiking, cycling
+Mammoth Cave - spelunking, cycling, horse, kayak, fishing, hiking, backpacking
+Mesa Verde - ruins, backpacking, hiking, 
+Monut Rainer - cycling, climbing, kayaking, fishing, hiking, backpacking
+North Cascades- rafting, cycling, kayaking, fishing, climbing, hiking, backpacking
+Olympic- rafting, kayaking, climbing, fishing, hiking, backpacking
+Pertrified Forest - hiking, backpacking, horse, 
+Pinnacles - hiking, climbing, spelunking
+Redwood - scenic drive, hiking, backpacking, kayaking, cycling, horse riding
+Rocky Mountains - cycling, fishing, climbing, hiking, backpacking, horse
+Saguaro - hiking, backpacking, 
+Sequoia - hiking, backpacking, horse, rock climbing, fishing
+Shenendoah - scenic drive, backpacking, hiking, cycling, fishing, horse, climbing
+Theodore Roosevelt - cycling, kayaking, fishing, hiking, backpacking, horse
+Voyageurs - hiking, backpacking
+Wind Cave - hiking, spelunking, horse, backpacking
+Wrangell-St. Elias- rafting, backpacking, hiking, cycling, climbing(mountaneering), kayaking, fishing, hunting
+Yellowstone- rafting, hiking, backpacking, horse, fishing, kayaking, 
+Yosemite- scenic drive, backpacking, cycling, fishing, hiking, horse, climbing, kayaking
+Zion - cycling, canyoneering, hiking, backpacking, climbing, kayaking																	
+
+Can remove 10 by restrcting to lower 48, 2 hawaii 8 alaska
